@@ -40,4 +40,5 @@ export type GenreOption =
   | "Drama"
   | "Ciencia Ficción"
   | "Suspenso / Thriller"
-  | "Crimen";
+  | "Crimen"
+  | "Animación / Arte";

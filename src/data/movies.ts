@@ -2,6 +2,7 @@ import { MovieArticle } from "@/types/movie";
 
 export const GENRES_LIST = [
   "Todos",
+  "Animación / Arte",
   "Bélico / Acción",
   "Drama",
   "Ciencia Ficción",
@@ -10,6 +11,56 @@ export const GENRES_LIST = [
 ];
 
 export const MOVIES_DATA: MovieArticle[] = [
+  {
+    id: "isao-takahata-infancia",
+    slug: "isao-takahata-infancia",
+    title: "Isao Takahata: la infancia y la orfandad en sus historias",
+    originalTitle: "高畑 勲 • Studio Ghibli",
+    subtitle: "La independencia de los niños, las situaciones adversas y la orfandad en el cine del cofundador de Studio Ghibli",
+    year: 2020,
+    director: "Isao Takahata (Análisis de Jorge Luis Mujica)",
+    duration: "Retrospectiva Especial",
+    genres: ["Animación / Arte", "Drama"],
+    rating: 5.0,
+    date: "30 de Octubre, 2020",
+    author: {
+      name: "Jorge Luis Mujica",
+      role: "Crítico de Cine & Autor en ZoomF7",
+      avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+    },
+    coverImage: "https://zoomf7.net/wp-content/uploads/2020/10/isao-takahata.jpg",
+    backdropImage: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "A diferencia de Hayao Miyazaki, Isao Takahata abordó la niñez con un realismo conmovedor y sin condescendencia: niños que maduran ante la orfandad, el hambre y las imposiciones conservadoras.",
+    quote: {
+      text: "Con mis historias trato de animar a la gente a que viva su vida de la forma más intensa posible, que sea la mejor versión de sí misma y no se deje distraer por bagatelas como el dinero o el prestigio. Nuestra existencia es algo precioso porque es finita.",
+      character: "Isao Takahata (El Periódico, 2016)",
+    },
+    content: {
+      introduction: "El 5 de abril de 2018, a causa de un cáncer de pulmón, falleció Isao Takahata. Director de la famosa película 'La tumba de las luciérnagas' (1988), dejó un sello imborrable en el mítico Studio Ghibli, del cual fue cofundador junto a su amigo y colega Hayao Miyazaki. Heredó al cine japonés obras fundamentales de la animación caracterizadas por un estilo muy diferenciado de Miyazaki, por lo cual es profundamente injusto que a menudo se le haya considerado a la sombra de su compañero de ruta.",
+      sections: [
+        {
+          heading: "1. La formación humanista y el choque con Toei Animation",
+          body: "Su acercamiento con la animación comenzó a través de su estudio de literatura francesa en la Universidad de Tokio. Conocer la obra del animador francés Paul Grimault lo impulsó a adentrarse en ese mundo. Desde ahí encontró la motivación para ser ayudante de dirección en Toei Animation, estudio legendario reconocido por series como Sailor Moon, Dragon Ball y One Piece. Fue allí donde conoció a Hayao Miyazaki, forjando una alianza creativa que culminaría en la creación de Studio Ghibli.",
+          highlight: "La literatura francesa y la animación europea le brindaron una sensibilidad realista única frente a la fantasía tradicional.",
+        },
+        {
+          heading: "2. Una niñez sin condescendencia: de Heidi a Marco",
+          body: "La niñez es sin duda el gran sello identitario de Ghibli; sin embargo, a diferencia de Miyazaki, Takahata lograba otorgarle un matiz mucho menos fantasioso y más psicológico. La independencia de los niños, las situaciones de adversidad extrema y la orfandad marcaron sus relatos. El cineasta japonés jamás subestimó a los niños: los creía plenamente capaces de entender, resistir y adaptarse a las circunstancias más duras. Producciones pre-Ghibli icónicas como 'Heidi, la niña de los Alpes' (1974) y 'Marco' (1976) funcionan como ejemplos tempranos de esta premisa: Heidi enfrentándose a una nueva vida tras la muerte de sus padres al cuidado de su abuelo huraño, y Marco cruzando océanos como un salvador prematuro en busca de su madre.",
+          highlight: "Takahata nunca infantilizó la infancia: sus pequeños protagonistas asumen responsabilidades adultas por necesidad vital.",
+        },
+        {
+          heading: "3. La tumba de las luciérnagas: La tragedia de Seita y Setsuko",
+          body: "Al pasar a sus largometrajes y hablar de la que es unánimemente considerada su obra cumbre, 'La tumba de las luciérnagas' (1988), nos encontramos con la historia de Seita y su pequeña hermana Setsuko, huérfanos durante la Segunda Guerra Mundial. Seita debe convertirse en adulto forzado para proteger a su hermana, enfrentando el hambre atroz, la precariedad y la indiferencia helada de los adultos que los rodean. El desenlace, desprovisto de melodrama tramposo pero implacablemente realista, permanece como uno de los momentos más devastadores y honestos de la historia del cine mundial.",
+        },
+        {
+          heading: "4. Recuerdos del ayer y Kaguya: Liberarse del peso del pasado",
+          body: "Esa mirada crítica sobre las heridas familiares y las estructuras estrictas ya había sido explorada en 'Recuerdos del ayer' (1991), donde Taeko, a sus 27 años, emprende un viaje donde los flashbacks de su niñez conservadora dialogan con su presente para permitirle sanar. Y en su testamento cinematográfico, 'El cuento de la princesa Kaguya' (2013), retoma la orfandad espiritual: Kaguya es despojada de su libertad natural en el campo para ser moldeada según las rígidas expectativas aristocráticas, culminando en un canto feminista de autonomía y desapego terrenal.",
+        },
+      ],
+      verdict: "Isao Takahata trascendió el medio de la animación para erigirse como un filósofo de la experiencia humana. Aunque sus historias retratan el dolor de la orfandad y la pérdida, su mensaje final es un recordatorio luminoso: nuestra existencia es finita y preciosa, y la empatía hacia los más vulnerables es lo único que nos salva.",
+      scoreExplanation: "5.0/5 - Ensayo indispensable: un homenaje al genio olvidado de Ghibli y a su valentía de mirar a la infancia sin filtros ni edulcorantes.",
+    },
+  },
   {
     id: "bastardos-sin-gloria",
     slug: "bastardos-sin-gloria",
@@ -27,7 +78,6 @@ export const MOVIES_DATA: MovieArticle[] = [
       role: "Crítico Principal & Diseñador Cinematográfico",
       avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
     },
-    // High quality thematic poster & backdrop
     coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
     backdropImage: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=1600&auto=format&fit=crop&q=80",
     excerpt: "La obra cumbre de Quentin Tarantino donde el cine no es solo un medio para narrar la Segunda Guerra Mundial, sino el arma definitiva que la destruye y la redime en una orgía de fuego y celuloide.",

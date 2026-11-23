@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "zoomf7.net",
+      },
+      {
+        protocol: "https",
         hostname: "upload.wikimedia.org",
       },
       {
