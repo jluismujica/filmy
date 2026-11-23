@@ -1,0 +1,216 @@
+import { MovieArticle } from "@/types/movie";
+
+export const GENRES_LIST = [
+  "Todos",
+  "Bélico / Acción",
+  "Drama",
+  "Ciencia Ficción",
+  "Suspenso / Thriller",
+  "Crimen",
+];
+
+export const MOVIES_DATA: MovieArticle[] = [
+  {
+    id: "bastardos-sin-gloria",
+    slug: "bastardos-sin-gloria",
+    title: "Bastardos sin Gloria",
+    originalTitle: "Inglourious Basterds",
+    subtitle: "Reescribiendo la historia con pólvora, celuloide y una tensión cinematográfica milimétrica",
+    year: 2009,
+    director: "Quentin Tarantino",
+    duration: "2h 33m",
+    genres: ["Bélico / Acción", "Drama", "Suspenso / Thriller"],
+    rating: 5.0,
+    date: "23 de Noviembre, 2026",
+    author: {
+      name: "Javier Mendoza",
+      role: "Crítico Principal & Diseñador Cinematográfico",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    },
+    // High quality thematic poster & backdrop
+    coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+    backdropImage: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "La obra cumbre de Quentin Tarantino donde el cine no es solo un medio para narrar la Segunda Guerra Mundial, sino el arma definitiva que la destruye y la redime en una orgía de fuego y celuloide.",
+    quote: {
+      text: "Creo que esta podría ser mi obra maestra.",
+      character: "Tte. Aldo Raine (y meta-firma de Quentin Tarantino)",
+    },
+    content: {
+      introduction: "Estrenada en 2009, 'Bastardos sin Gloria' representa el cenit estético y narrativo de Quentin Tarantino. Lejos de proponer una lección histórica rigurosa, el director concibe un audaz cuento de hadas bélico donde el Séptimo Arte asume el papel de justiciero supremo. Dividida en cinco capítulos de precisión quirúrgica, la cinta desafía las convenciones del género y entrega momentos que ya forman parte del panteón de la cinematografía moderna.",
+      sections: [
+        {
+          heading: "1. El prólogo y la anatomía del suspense: Hans Landa",
+          body: "Los primeros veinte minutos en la granja lechera francesa de Perrier LaPadite son una clase magistral de dirección y diálogo. El coronel de las SS Hans Landa, inmortalizado por Christoph Waltz en una interpretación que le valió el Óscar, transforma una aparente visita diplomática en un juego psicológico asfixiante. La cadencia, las pausas calculadas, el humo de la pipa de calabaza y la degustación del vaso de leche construyen una bomba de tiempo invisible que estalla bajo las tablas del suelo, definiendo de inmediato el tono implacable de la película.",
+          highlight: "El lenguaje no se utiliza para comunicar, sino como una herramienta de interrogación y asedio mortal.",
+        },
+        {
+          heading: "2. Shosanna Dreyfus y el cine como revólver",
+          body: "Frente a la brutalidad ruidosa y caricaturesca del comando de Aldo Raine (Brad Pitt), encontramos el arco más poético y letal: el de Shosanna Dreyfus (Mélanie Laurent). Como dueña del cine Le Gamaar en París, Shosanna no recurre a balas para vengarse, sino al nitrato de celuloide altamente inflamable. La secuencia donde se maquilla al compás de 'Cat People' de David Bowie es uno de los montajes más vibrantes del cine contemporáneo: una mujer preparándose no para una fiesta, sino para incinerar al Tercer Reich con su propio rostro proyectado en el humo.",
+          highlight: "El nitrato de plata arde tres veces más rápido que el papel: el celuloide es literalmente el explosivo de la historia.",
+        },
+        {
+          heading: "3. La taberna subterránea: Sinfonía en tres dedos",
+          body: "El capítulo cuatro traslada la acción a una íntima taberna en Nadine. Lo que comienza como una reunión clandestina entre espías se convierte en una danza de identidades falsas, acentos sospechosos y miradas cargadas de desconfianza. El error fatal del teniente Archie Hicox al ordenar tres vasos con la mano equivocada es la quintaesencia de la narración tarantiniana: un detalle cultural nimio desata una balacera fulminante que cambia el destino de todos los presentes.",
+        },
+        {
+          heading: "4. Fotografía, ritmo y el homenaje a Ennio Morricone",
+          body: "Visualmente, la fotografía a cargo de Robert Richardson baña cada encuadre en una paleta rica de contrastes: tonos cálidos de madera en Francia, verdes militares opacos, y el carmesí absoluto de la sala de proyección en el clímax. Acompañada por piezas rescatadas de Ennio Morricone y el Spaghetti Western, la película trasciende las trincheras para elevarse como una opereta cinematográfica cargada de cinismo, ritmo y justicia poética.",
+        },
+      ],
+      verdict: "Bastardos sin Gloria es una joya indiscutible: entretenida, técnicamente prodigiosa y profundamente enamorada del cine. Tarantino no sólo reescribió la historia, sino que demostró que en una sala oscura, el celuloide tiene el poder de conquistar la realidad.",
+      scoreExplanation: "5.0/5 - Puntuación perfecta: guión milimétrico, actuaciones inolvidables encabezadas por Christoph Waltz y una catarsis cinematográfica insuperable.",
+    },
+  },
+  {
+    id: "blade-runner-2049",
+    slug: "blade-runner-2049",
+    title: "Blade Runner 2049",
+    originalTitle: "Blade Runner 2049",
+    subtitle: "La melancolía visual de un futuro que busca desesperadamente un alma",
+    year: 2017,
+    director: "Denis Villeneuve",
+    duration: "2h 44m",
+    genres: ["Ciencia Ficción", "Drama", "Suspenso / Thriller"],
+    rating: 4.8,
+    date: "19 de Noviembre, 2026",
+    author: {
+      name: "Sofía Valenzuela",
+      role: "Especialista en Estética Visual & Sci-Fi",
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    },
+    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    backdropImage: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "Denis Villeneuve y Roger Deakins construyen una continuación milagrosa: un poema neo-noir sobre la memoria, la soledad y la dignidad de lo sintético.",
+    quote: {
+      text: "Todos los mejores recuerdos son de ella.",
+      character: "Oficial K",
+    },
+    content: {
+      introduction: "Muy pocas secuelas tardías logran justificar su existencia, y menos aún cuando la original es un clásico fundacional como la Blade Runner de 1982. Sin embargo, Denis Villeneuve no solo honró el legado de Ridley Scott, sino que expandió su mitología hacia terrenos de introspección filosófica deslumbrantes.",
+      sections: [
+        {
+          heading: "La fotografía monumental de Roger Deakins",
+          body: "Cada fotograma de 2049 es digno de exponerse en una galería de arte moderno. Desde los páramos anaranjados y radioactivos de Las Vegas hasta la lluvia asfáltica de Los Ángeles, la iluminación de Deakins utiliza la geometría y la penumbra para evocar la desolación existencial de sus personajes.",
+        },
+        {
+          heading: "K y el deseo de pertenencia",
+          body: "Ryan Gosling ofrece una de las interpretaciones más sutiles y contenidas de su carrera. K no busca salvar al mundo, sino descubrir si alguna vez tuvo una madre, si su sufrimiento es genuino o programado.",
+        },
+      ],
+      verdict: "Una de las cumbres de la ciencia ficción del siglo XXI. Paciente, hipnótica y conmovedora.",
+      scoreExplanation: "4.8/5 - Casi insuperable: ritmo pausado que recompensa con una belleza audiovisual apabullante.",
+    },
+  },
+  {
+    id: "oppenheimer",
+    slug: "oppenheimer",
+    title: "Oppenheimer",
+    originalTitle: "Oppenheimer",
+    subtitle: "El Prometeo moderno devorado por el fuego que regaló a la humanidad",
+    year: 2023,
+    director: "Christopher Nolan",
+    duration: "3h 00m",
+    genres: ["Drama", "Bélico / Acción", "Suspenso / Thriller"],
+    rating: 4.9,
+    date: "12 de Noviembre, 2026",
+    author: {
+      name: "Javier Mendoza",
+      role: "Crítico Principal",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    },
+    coverImage: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&auto=format&fit=crop&q=80",
+    backdropImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "Christopher Nolan convierte un drama biográfico en un thriller nuclear psicológico implacable, con una actuación titánica de Cillian Murphy y la música arrolladora de Ludwig Göransson.",
+    quote: {
+      text: "Ahora me he convertido en la Muerte, el destructor de mundos.",
+      character: "J. Robert Oppenheimer",
+    },
+    content: {
+      introduction: "Lejos de ser un biopic convencional, Oppenheimer es una experiencia sensorial claustrofóbica sobre la culpa cósmica. Christopher Nolan yuxtapone la emoción de la investigación científica en Los Álamos con el laberinto burocrático y político de la caza de brujas en Washington.",
+      sections: [
+        {
+          heading: "El silencio de Trinity",
+          body: "La recreación de la prueba Trinity prescinde intencionalmente de la fanfarria musical. Nolan corta el audio en el momento de la detonación, permitiendo que la majestuosidad visual del hongo atómico sea contemplada en un silencio sacro antes de que la onda de choque acústica arrase con todo.",
+        },
+        {
+          heading: "Fisión vs. Fusión narrativa",
+          body: "Alternando entre la perspectiva en color y subjetiva de Oppenheimer y el blanco y negro objetivo de Lewis Strauss (Robert Downey Jr.), el montaje de Jennifer Lame crea una aceleración casi molecular.",
+        },
+      ],
+      verdict: "Un logro cinematográfico maduro, exigente y fascinante.",
+      scoreExplanation: "4.9/5 - Actuación cumbre de Murphy y un diseño sonoro que estremece los huesos.",
+    },
+  },
+  {
+    id: "el-padrino",
+    slug: "el-padrino",
+    title: "El Padrino",
+    originalTitle: "The Godfather",
+    subtitle: "La tragedia shakespeariana del poder, la familia y el alma americana",
+    year: 1972,
+    director: "Francis Ford Coppola",
+    duration: "2h 55m",
+    genres: ["Crimen", "Drama"],
+    rating: 5.0,
+    date: "05 de Noviembre, 2026",
+    author: {
+      name: "Carlos Bianchi",
+      role: "Historiador de Cine Clásico",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    },
+    coverImage: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&auto=format&fit=crop&q=80",
+    backdropImage: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "Medio siglo después, el descenso de Michael Corleone a los infiernos del poder sigue siendo el estándar dorado del relato criminal y cinematográfico mundial.",
+    quote: {
+      text: "Le haré una oferta que no podrá rechazar.",
+      character: "Don Vito Corleone",
+    },
+    content: {
+      introduction: "No hay obra en la historia del cine que equilibre con tanta maestría el drama de alcoba familiar y la fría maquinaría de una organización criminal. Coppola y Mario Puzo construyeron un mito que aún palpita en cada rincón de la cultura popular.",
+      sections: [
+        {
+          heading: "El bautismo de sangre",
+          body: "El montaje paralelo final entre los votos del bautismo católico del sobrino de Michael y la ejecución sistemática de los líderes de las Cinco Familias es el instante fundacional del cine moderno.",
+        },
+      ],
+      verdict: "Perfección absoluta. Inagotable en cada revisionado.",
+      scoreExplanation: "5.0/5 - Monumento histórico del séptimo arte.",
+    },
+  },
+  {
+    id: "parasite",
+    slug: "parasite",
+    title: "Parásitos",
+    originalTitle: "Gisaengchung",
+    subtitle: "Una sátira feroz sobre las clases sociales envuelta en humor negro y sangre",
+    year: 2019,
+    director: "Bong Joon-ho",
+    duration: "2h 12m",
+    genres: ["Suspenso / Thriller", "Drama"],
+    rating: 4.9,
+    date: "28 de Octubre, 2026",
+    author: {
+      name: "Sofía Valenzuela",
+      role: "Especialista en Cine Asiático & Narrativa",
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    },
+    coverImage: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=800&auto=format&fit=crop&q=80",
+    backdropImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80",
+    excerpt: "Con una arquitectura escénica asombrosa y un guión afilado como bisturí, Bong Joon-ho creó la primera cinta de habla no inglesa en ganar el Óscar a Mejor Película.",
+    quote: {
+      text: "¿Sabes cuál es el mejor plan? No tener ningún plan.",
+      character: "Kim Ki-taek",
+    },
+    content: {
+      introduction: "Parásitos es una lección de tono y espacio físico. Lo que empieza como una ligera comedia de estafadores familiares se transforma en un thriller asfixiante que disecciona las insalvables distancias socioeconómicas de la sociedad moderna.",
+      sections: [
+        {
+          heading: "La arquitectura de la desigualdad",
+          body: "Todo en la película se mide en verticalidad: desde el semisótano húmedo de los Kim donde el agua de lluvia inunda los inodoros, hasta la mansión hipermoderna y luminosa de los Park diseñada por un arquitecto ficticio.",
+        },
+      ],
+      verdict: "Original, divertida, impredecible y devastadora.",
+      scoreExplanation: "4.9/5 - Obra maestra coreana con resonancia universal.",
+    },
+  },
+];

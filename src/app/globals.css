@@ -2,25 +2,61 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #0f172a; /* Slate 900 for crystal-clear readability */
+  --celeste-primary: #0284c7; /* Sky 600 */
+  --celeste-light: #e0f2fe; /* Sky 100 */
+  --celeste-dark: #0369a1; /* Sky 700 */
+  --celeste-accent: #38bdf8; /* Sky 400 */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Perspective container for 3D Parallax effect */
+.perspective-container {
+  perspective: 1200px;
+}
+
+/* Prominent visual shadows for cards as requested ("sombra vistosa") */
+.card-shadow-cinematic {
+  box-shadow: 
+    0 10px 25px -5px rgba(2, 132, 199, 0.15),
+    0 8px 10px -6px rgba(15, 23, 42, 0.08),
+    0 25px 40px -15px rgba(2, 132, 199, 0.12);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-shadow-cinematic:hover {
+  box-shadow: 
+    0 25px 50px -12px rgba(2, 132, 199, 0.35),
+    0 15px 25px -5px rgba(15, 23, 42, 0.12),
+    0 0 20px 2px rgba(56, 189, 248, 0.3);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #38bdf8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+/* Film grain subtle overlay */
+.film-grain {
+  background-image: radial-gradient(rgba(2, 132, 199, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
 }
